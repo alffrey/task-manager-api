@@ -1,5 +1,4 @@
 const express = require('express');
-const envCmd = require('env-cmd');
 require('./db/mongoose');
 
 const userRouter = require('./routers/user');
